@@ -105,7 +105,7 @@ export default function Home() {
          <label>Project Details</label>
 <textarea name="details" placeholder="Describe your idea in detail"></textarea>
           <label>Upload Reference Image</label>
-<input name="attachment" type="file" accept="image/*" />
+<input name="file" type="file" accept="image/*" />
     <input
   type="hidden"
   name="_subject"
