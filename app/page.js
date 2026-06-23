@@ -84,24 +84,45 @@ export default function Home() {
         <form
   action="https://formspree.io/f/maqgnvkj"
   method="POST">
-<input name="name" placeholder="Your name" />
-    <input name="email" type="email" placeholder="Your email" />
-          <select name="service">
+<label>Your Name</label>
+<input name="name" placeholder="Your name" required />
+  <label>Your Email</label>
+<input name="email" type="email" placeholder="Your email" required />
+
+<label>Service Needed</label>
+<select name="service">
             <option>Custom Logo</option>
             <option>Wallpaper</option>
             <option>Logo + Wallpaper Bundle</option>
             <option>Special Request</option>
           </select>
-          <input name="business" placeholder="Business / brand / page name" />
-          <input name="colors" placeholder="Colors you want" />
-          <textarea name="details" placeholder="Describe your idea in detail"></textarea>
-          <input name="attachment" type="file" />
+         <label>Business / Brand</label>
+<input name="business" placeholder="Business / brand / page name" />
+       <label>Colors Wanted</label>
+<input name="colors" placeholder="Colors you want" />
+         <label>Project Details</label>
+<textarea name="details" placeholder="Describe your idea in detail"></textarea>
+          <label>Upload Reference Image</label>
+<input name="attachment" type="file" accept="image/*" />
+    <input
+  type="hidden"
+  name="_subject"
+  value="New DevenDesigns Order Request"
+/>
          <button className="submit" type="submit">
   Submit Request
 </button>
         </form>
         <div className="payment">
-          <h3>Payments</h3>
+         <h3>Payments</h3>
+<p>Secure payment available through PayPal or Cash App.</p>
+    <a
+  className="btn"
+  href="https://www.paypal.com/paypalme/runninpeteskennels"
+  target="_blank"
+>
+  Pay with PayPal
+</a>
           <p><strong>PayPal:</strong> runninpeteskennels@gmail.com</p>
           <p><strong>Cash App:</strong> $DevenCurtis</p>
         </div>
