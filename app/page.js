@@ -123,7 +123,7 @@ href="https://paypal.me/Deven806"
 >
   Pay with PayPal
 </a>
-          <p><strong>PayPal:</strong> runninpeteskennels@gmail.com</p>
+          <p><strong>PayPal:</strong> paypal.me/Deven806</p>
           <p><strong>Cash App:</strong> $DevenCurtis</p>
         </div>
       </section>
