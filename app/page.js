@@ -118,7 +118,7 @@ export default function Home() {
 <p>Secure payment available through PayPal or Cash App.</p>
     <a
   className="btn"
-  href="https://www.paypal.com/paypalme/runninpeteskennels"
+href="https://paypal.me/Deven806"
   target="_blank"
 >
   Pay with PayPal
