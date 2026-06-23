@@ -104,8 +104,11 @@ export default function Home() {
 <input name="colors" placeholder="Colors you want" />
          <label>Project Details</label>
 <textarea name="details" placeholder="Describe your idea in detail"></textarea>
-          <label>Upload Reference Image</label>
-<input name="file" type="file" accept="image/*" />
+<label>Reference Images</label>
+<p>
+  After submitting your order, please email any reference images to
+  <strong> runninpeteskennels@gmail.com</strong>.
+</p>
     <input
   type="hidden"
   name="_subject"
