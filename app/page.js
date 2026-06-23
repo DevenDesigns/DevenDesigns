@@ -81,20 +81,24 @@ export default function Home() {
       <section className="section form-section" id="order">
         <h2>Start Your Order</h2>
         <p className="section-intro">Send your idea, colors, and any reference images you want used. The form is a starter layout; next we can connect it so submissions go to your email.</p>
-        <form>
-          <input placeholder="Your name" />
-          <input placeholder="Your email" />
-          <select>
+        <form
+  action="https://formspree.io/f/maqgnvkj"
+  method="POST">
+<input name="name" placeholder="Your name" />
+    <input name="email" type="email" placeholder="Your email" />
+          <select name="service">
             <option>Custom Logo</option>
             <option>Wallpaper</option>
             <option>Logo + Wallpaper Bundle</option>
             <option>Special Request</option>
           </select>
-          <input placeholder="Business / brand / page name" />
-          <input placeholder="Colors you want" />
-          <textarea placeholder="Describe your idea in detail"></textarea>
-          <input type="file" />
-          <button className="submit" type="button">Submit Request</button>
+          <input name="business" placeholder="Business / brand / page name" />
+          <input name="colors" placeholder="Colors you want" />
+          <textarea name="details" placeholder="Describe your idea in detail"></textarea>
+          <input name="attachment" type="file" />
+         <button className="submit" type="submit">
+  Submit Request
+</button>
         </form>
         <div className="payment">
           <h3>Payments</h3>
