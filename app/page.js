@@ -81,9 +81,11 @@ export default function Home() {
       <section className="section form-section" id="order">
         <h2>Start Your Order</h2>
         <p className="section-intro">Send your idea, colors, and any reference images you want used. The form is a starter layout; next we can connect it so submissions go to your email.</p>
-        <form
+<form
   action="https://formspree.io/f/maqgnvkj"
-  method="POST">
+  method="POST"
+  encType="multipart/form-data"
+>
 <label>Your Name</label>
 <input name="name" placeholder="Your name" required />
   <label>Your Email</label>
